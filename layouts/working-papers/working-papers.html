@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1>{{ .Title }}</h1>
+</section>
+
+<section class="page-content">
+  <ol class="paper-list paper-list-full">
+    {{ range where .Site.Data.working_papers "status" "active" }}
+    <li class="paper-item">
+      <div class="paper-citation">
+        <span class="paper-authors">{{ .authors }}</span>, {{ .year }}.
+        {{ .title }}.
+      </div>
+      {{ if .links }}
+      <button class="expand-toggle" aria-label="Show links">+</button>
+      <div class="paper-details">
+        <div class="paper-links">
+          {{ with .links.ssrn }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}{{ end }}
+          {{ with .links.pdf }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">PDF</a>{{ end }}{{ end }}
+          {{ with .links.data }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Data</a>{{ end }}{{ end }}
+          {{ with .links.slides }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ol>
+
+  {{ $inactive := where .Site.Data.working_papers "status" "inactive" }}
+  {{ if $inactive }}
+  <h2>Inactive Papers</h2>
+  <ol class="paper-list paper-list-full">
+    {{ range $inactive }}
+    <li class="paper-item">
+      <div class="paper-citation">
+        <span class="paper-authors">{{ .authors }}</span>, {{ .year }}.
+        {{ .title }}.
+      </div>
+      {{ if .links }}
+      <button class="expand-toggle" aria-label="Show links">+</button>
+      <div class="paper-details">
+        <div class="paper-links">
+          {{ with .links.ssrn }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}{{ end }}
+          {{ with .links.slides }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ol>
+  {{ end }}
+</section>
+{{ end }}

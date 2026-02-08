@@ -1,0 +1,86 @@
+current_position:
+  title: "Professor of Accounting and Economics"
+  institution: "Frankfurt School of Finance and Management"
+  start: 2017
+
+education:
+  - degree: "Ph.D. in Economics"
+    institution: "Tilburg University"
+    year: 1999
+  - degree: "M.Sc. in Policy Science (cum laude)"
+    institution: "Radboud University Nijmegen"
+    year: 1992
+
+previous_positions:
+  - title: "Vice-Dean, Doctoral Education"
+    institution: "Frankfurt School of Finance and Management"
+    years: "2020-2023"
+  - title: "Chaired Professor of Empirical Accounting Research"
+    institution: "Tilburg University"
+    years: "2007-2017"
+  - title: "Professor of Empirical Accounting Research"
+    institution: "Tilburg University"
+    years: "2001-2007"
+  - title: "Associate Professor of Accounting"
+    institution: "Tilburg University"
+    years: "1999-2001"
+  - title: "Assistant Professor of Accounting"
+    institution: "Tilburg University"
+    years: "1993-1999"
+
+visiting:
+  - title: "Distinguished Academic Fellow"
+    institution: "Nanyang Technological University"
+    year: "2025"
+  - title: "Visiting Chair Professor of Accounting and Economics"
+    institution: "The Hong Kong Polytechnic University"
+    year: "2023-2024"
+  - title: "Distinguished visiting scholar"
+    institution: "New York University, Stern School of Business"
+    year: "2023"
+  - title: "Short-term visit"
+    institution: "Columbia University, Columbia Business School"
+    year: "2022"
+  - title: "Short-term visit"
+    institution: "University of Chicago, Booth School of Business"
+    year: "2019"
+  - title: "Short-term visit"
+    institution: "Ludwig Maximilians University Munich"
+    year: "2014"
+  - title: "Visiting Fellow"
+    institution: "University of Chicago, Booth School of Business"
+    year: "2011"
+  - title: "Short-term visit"
+    institution: "University of Melbourne"
+    year: "2004, 2025"
+  - title: "Visiting Scholar"
+    institution: "University of Rochester"
+    year: "1996-1998"
+
+editorial:
+  editor:
+    - journal: "Journal of Accounting Research"
+      role: "Senior Editor"
+      years: "2024-present"
+    - journal: "China Accounting and Finance Review"
+      role: "Consulting Editor"
+      years: "2023-2025"
+    - journal: "The Accounting Review"
+      role: "Editor"
+      years: "2017-2020"
+    - journal: "European Accounting Review"
+      role: "Editor-in-Chief"
+      years: "2012-2016"
+  associate_editor:
+    - journal: "Journal of Accounting Research"
+      years: "2019-2023"
+    - journal: "European Accounting Review"
+      years: "2004-2011"
+
+advisory_boards:
+  - role: "Advisory Council Member"
+    organization: "Center for Financial Reporting and Auditing, ESMT, Berlin"
+    years: "2015-present"
+  - role: "Advisory Board Member"
+    organization: "Center for Accounting Research and Education (CARE), University of Notre Dame"
+    years: "2009-present"

@@ -1,0 +1,61 @@
+- authors: "van Lent, L., A. Tahoun, R. Zhang, and M. Zhu"
+  year: 2026
+  title: "Technology shocks and the portability of organizational design"
+  status: "active"
+
+- authors: "Liu, M., Z. Sautner, L. van Lent, G. Vilkov, and R. Zhang"
+  year: 2026
+  title: "Unpacking social exposure"
+  status: "active"
+
+- authors: "Cui, J., L. van Lent, and M. Zhu"
+  year: 2025
+  title: "Quantifying standard-setting deliberations"
+  status: "active"
+
+- authors: "Sautner, Z., L. van Lent, G. Vilkov, and R. Zhang"
+  year: 2025
+  title: "Values discovery"
+  status: "active"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4596668"
+    slides: ""
+    pdf: ""
+    data: ""
+
+- authors: "Hung, C.Y., H. Li, L. van Lent, and Y. Zeng"
+  year: 2025
+  title: "Seeing people: the selective attention of analysts in their research output"
+  status: "active"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4862556"
+
+- authors: "Cai, W., L. van Lent, and C. Zeng"
+  year: 2024
+  title: "War, Migration, and Innovation: The Prolonged Impact of Universities' Forced Relocation"
+  status: "active"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4173157"
+    slides: ""
+
+- authors: "Tahoun, A., L. van Lent, and M. Zhu"
+  year: 2023
+  title: "Biased executives"
+  status: "active"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4368099"
+
+- authors: "Hofmann, C., L. van Lent, and N. Schwaiger"
+  year: 2019
+  title: "Religion and ownership"
+  status: "active"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3418222"
+
+- authors: "Gorbatikov, E., L. van Lent, N. Naik, V. Sharma, and A. Tahoun"
+  year: 2019
+  title: "Is firm-specific political exposure priced?"
+  status: "inactive"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3480494"
+    slides: ""

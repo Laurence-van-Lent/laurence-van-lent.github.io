@@ -1,0 +1,19 @@
+name: "Laurence van Lent"
+title: "Professor of Accounting and Economics"
+affiliation: "Frankfurt School of Finance and Management"
+photo: "/img/profile.jpg"
+email: "l.vanlent@fs.de"
+bio: "My research applies text-as-data methods to measure firms' exposure to political risk, climate change, and epidemic diseases, with work published in the Quarterly Journal of Economics, the Journal of Finance, the Review of Financial Studies, and the Journal of Economic Perspectives. A second research line studies organizational design, incentive contracts, and performance measurement, published in Management Science, the Journal of Accounting Research, The Accounting Review, and the Review of Accounting Studies."
+bio_full: |
+  Laurence van Lent is Professor of Accounting and Economics at the Frankfurt School of Finance and Management.
+
+  One strand of his research applies computational linguistics and text-as-data methods to measure how individual firms are exposed to major economic forces such as political risk, climate change, epidemic diseases, and technological disruption. Together with Tarek Hassan, Stephan Hollander, and Ahmed Tahoun, he developed a methodology that uses natural language processing on quarterly earnings conference calls to construct firm-level measures of these exposures. This work, published in the *Quarterly Journal of Economics*, the *Journal of Finance*, the *Review of Financial Studies*, and the *Journal of Economic Perspectives*, has produced freely available data sets widely used by researchers and policymakers ([firmlevelrisk.com](https://www.firmlevelrisk.com)). His paper on firm-level climate change exposure, coauthored with Zacharias Sautner, Grigory Vilkov, and Ruishen Zhang and published in the *Journal of Finance*, is the highest-cited article in that journal over the past five years.
+
+  A second strand combines economic theory with field data to study how organizations design incentive contracts and performance measurement systems when social norms, altruism, and information asymmetries shape behavior. This work has appeared in *Management Science*, the *Journal of Accounting Research*, *The Accounting Review*, and the *Review of Accounting Studies*.
+
+  He has served as Editor-in-Chief of the *European Accounting Review* (2012--2016) and as an Editor of *The Accounting Review* (2017--2020), and is currently a Senior Editor at the *Journal of Accounting Research*. He is a Principal Investigator in the DFG-funded Collaborative Research Center on Accounting for Transparency (TRR 266).
+links:
+  ssrn: "https://ssrn.com/author=329350"
+  osf: "https://osf.io/5h4sa"
+  firmlevelrisk: "https://www.firmlevelrisk.com"
+  cv: "/cv.pdf"

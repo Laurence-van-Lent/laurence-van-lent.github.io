@@ -1,0 +1,272 @@
+- authors: "Andreicovici, I., L. van Lent, V. Nikolaev, and R. Zhang"
+  year: 2026
+  title: "Metering problems and resource allocation"
+  journal: "The Accounting Review"
+  status: "conditionally accepted"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3853951"
+    data: ""
+    slides: ""
+
+- authors: "Hassan, T., S. Hollander, A. Kalyani, L. van Lent, M. Schwedeler, and A. Tahoun"
+  year: 2025
+  title: "Text as data in economic analysis"
+  journal: "Journal of Economic Perspectives"
+  volume: "39(3)"
+  pages: "193-220"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5024250"
+    doi: "https://doi.org/10.1257/jep.20231365"
+    slides: ""
+    nber: ""
+
+- authors: "Gad, M., V. Nikolaev, A. Tahoun, and L. van Lent"
+  year: 2024
+  title: "Firm-level political risk and credit markets"
+  journal: "Journal of Accounting and Economics"
+  volume: "77(2-3)"
+  pages: "101642"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3395266"
+    doi: "https://doi.org/10.1016/j.jacceco.2023.101642"
+    slides: ""
+
+- authors: "Hassan, T., S. Hollander, L. van Lent, and A. Tahoun"
+  year: 2024
+  title: "The global impact of Brexit uncertainty"
+  journal: "The Journal of Finance"
+  volume: "79(1)"
+  pages: "413-458"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3520729"
+    doi: "https://doi.org/10.1111/jofi.13293"
+    slides: ""
+    python_script: ""
+    nber: "https://www.nber.org/papers/w26609"
+    cepr: ""
+
+- authors: "Sautner, Z., L. van Lent, G. Vilkov, and R. Zhang"
+  year: 2023
+  title: "Pricing climate change exposure"
+  journal: "Management Science"
+  volume: "69(12)"
+  pages: "7540-7561"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3792366"
+    doi: "https://doi.org/10.1287/mnsc.2023.4686"
+    slides: ""
+
+- authors: "Bae, J., C.Y. Hung, and L. van Lent"
+  year: 2023
+  title: "Mobilizing text as data"
+  journal: "European Accounting Review"
+  volume: "32(5)"
+  pages: "1085-1106"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4162594"
+    doi: "https://doi.org/10.1080/09638180.2023.2218423"
+
+- authors: "Hassan, T., S. Hollander, L. van Lent, M. Schwedeler, and A. Tahoun"
+  year: 2023
+  title: "Firm-level Exposure to Epidemic Diseases: Covid-19, SARS, and H1N1"
+  journal: "Review of Financial Studies"
+  volume: "36(12)"
+  pages: "4919-4964"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3566530"
+    doi: "https://doi.org/10.1093/rfs/hhad044"
+    slides: ""
+    nber: "https://www.nber.org/papers/w26971"
+    data: ""
+    python_script: ""
+
+- authors: "Sautner, Z., L. van Lent, G. Vilkov, and R. Zhang"
+  year: 2023
+  title: "Firm-level climate change exposure"
+  journal: "The Journal of Finance"
+  volume: "78(3)"
+  pages: "1449-1498"
+  note: "Highest-cited article published in the Journal of Finance over the past five years, as of April 2025."
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3642508"
+    doi: "https://doi.org/10.1111/jofi.13219"
+    slides: ""
+    data: ""
+
+- authors: "Abernethy, M.A., J. Bouwens, C. Hofmann, and L. van Lent"
+  year: 2023
+  title: "Altruism, social norms and incentive contract design"
+  journal: "Review of Accounting Studies"
+  volume: "28(2)"
+  pages: "570-614"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2067040"
+    doi: "https://doi.org/10.1007/s11142-021-09649-x"
+
+- authors: "Hung, C.Y., M.A. Abernethy, C. Hofmann and L. van Lent"
+  year: 2022
+  title: "Benefits of independent agents' entrepreneurship: evidence from the loan market"
+  journal: "Journal of Management Accounting Research"
+  volume: "34(3)"
+  pages: "141-160"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3492407"
+    doi: "https://doi.org/10.2308/jmar-2020-042"
+
+- authors: "Abernethy, M.A., C.Y. Hung, and L. van Lent"
+  year: 2020
+  title: "Expertise and discretionary bonus decisions"
+  journal: "Management Science"
+  volume: "66(1)"
+  pages: "433-451"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3214065"
+    doi: "https://doi.org/10.1287/mnsc.2018.3172"
+
+- authors: "Hassan, T., S. Hollander, L. van Lent, and A. Tahoun"
+  year: 2019
+  title: "Firm-level political risk: measurement and effects"
+  journal: "The Quarterly Journal of Economics"
+  volume: "134(4)"
+  pages: "2135-2202"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2838644"
+    doi: "https://doi.org/10.1093/qje/qjz021"
+    replication: ""
+
+- authors: "Tahoun, A. and L. van Lent"
+  year: 2019
+  title: "The personal wealth interests of politicians and government intervention in the economy"
+  journal: "Review of Finance"
+  volume: "23(1)"
+  pages: "37-74"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1570219"
+    doi: "https://doi.org/10.1093/rof/rfy015"
+
+- authors: "Bouwens, J., C. Hofmann, and L. van Lent"
+  year: 2018
+  title: "Performance measures and intra-firm spillovers: theory and evidence"
+  journal: "Journal of Management Accounting Research"
+  volume: "30(3)"
+  pages: "117-144"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2263136"
+    doi: "https://doi.org/10.2308/jmar-51903"
+
+- authors: "Hofmann, C. and L. van Lent"
+  year: 2015
+  title: "Organizational design and control choices"
+  journal: "Oxford Handbooks Online (Scholarly Research Reviews)"
+  pages: "451-468"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2584444"
+    doi: "https://doi.org/10.1093/oxfordhb/9780199935406.013.10"
+
+- authors: "Jia, Y., L. van Lent, and Y. Zeng"
+  year: 2014
+  title: "Masculinity, testosterone and financial misreporting"
+  journal: "Journal of Accounting Research"
+  volume: "52(5)"
+  pages: "1195-1246"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2265510"
+    doi: "https://doi.org/10.1111/1475-679x.12065"
+
+- authors: "Abernethy, M.A., J. Bouwens, and L. van Lent"
+  year: 2013
+  title: "The role of performance measures in the inter-temporal choices of business unit managers"
+  journal: "Contemporary Accounting Research"
+  volume: "30(3)"
+  pages: "925-961"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1918857"
+    doi: "https://doi.org/10.1111/j.1911-3846.2012.01178.x"
+
+- authors: "van Lent, L."
+  year: 2012
+  title: "Discussion of \"The influence of elections on the accounting choices of governmental entities\""
+  journal: "Journal of Accounting Research"
+  volume: "50(2)"
+  pages: "477-494"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1980697"
+    doi: "https://doi.org/10.1111/j.1475-679x.2012.00446.x"
+
+- authors: "Abernethy, M.A., J. Bouwens, and L. van Lent"
+  year: 2010
+  title: "Leadership and control system design"
+  journal: "Management Accounting Research"
+  volume: "21(1)"
+  pages: "2-16"
+  note: "Winner of the 2010 David Solomons Best Paper Award"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1476788"
+    doi: "https://doi.org/10.1016/j.mar.2009.10.002"
+
+- authors: "Bouwens, J. and L. van Lent"
+  year: 2007
+  title: "Assessing the performance of business unit managers"
+  journal: "Journal of Accounting Research"
+  volume: "45(4)"
+  pages: "667-697"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1065884"
+    doi: "https://doi.org/10.1111/j.1475-679x.2007.00251.x"
+
+- authors: "van Lent, L."
+  year: 2007
+  title: "Endogeneity in management accounting research: A comment"
+  journal: "European Accounting Review"
+  volume: "16(1)"
+  pages: "197-205"
+  links:
+    doi: "https://doi.org/10.1080/09638180701269863"
+
+- authors: "Bouwens, J. and L. van Lent"
+  year: 2006
+  title: "Performance measure properties and the effects of incentive contracts"
+  journal: "Journal of Management Accounting Research"
+  volume: "18"
+  pages: "55-75"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=903186"
+    doi: "https://doi.org/10.2308/jmar.2006.18.1.55"
+
+- authors: "Nikolaev, V. and L. van Lent"
+  year: 2005
+  title: "The endogeneity bias in the relation between cost-of-debt capital and corporate disclosure policy"
+  journal: "European Accounting Review"
+  volume: "14(4)"
+  pages: "677-724"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=769765"
+    doi: "https://doi.org/10.1080/09638180500204624"
+
+- authors: "Abernethy, M.A., J. Bouwens and L. van Lent"
+  year: 2004
+  title: "Determinants of control system design in divisionalized firms"
+  journal: "The Accounting Review"
+  volume: "79(3)"
+  pages: "545-570"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=502422"
+    doi: "https://doi.org/10.2308/accr.2004.79.3.545"
+
+- authors: "van Lent, L."
+  year: 1999
+  title: "The economics of an audit firm: the benefits of partnership governance"
+  journal: "British Accounting Review"
+  volume: "31"
+  pages: "225-254"
+  links:
+    doi: "https://doi.org/10.1006/bare.1998.0087"
+
+- authors: "van Lent, L."
+  year: 1997
+  title: "Pressure and politics in financial accounting regulation: the case of the financial conglomerates in the Netherlands"
+  journal: "Abacus"
+  volume: "33(1)"
+  pages: "88-114"
+  links:
+    doi: "https://doi.org/10.1111/1467-6281.00005"

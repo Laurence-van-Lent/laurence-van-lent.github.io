@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1>{{ .Title }}</h1>
+</section>
+
+<section class="page-content">
+  <h2>Grants</h2>
+  <ul class="honors-list">
+    {{ range .Site.Data.honors.grants }}
+    <li>
+      <strong>{{ .title }}</strong>{{ with .funder }}, {{ . }}{{ end }}{{ with .amount }} ({{ . }}){{ end }}{{ with .years }}, {{ . }}{{ end }}{{ with .coinvestigators }}<br><span class="coinvestigators">with {{ . }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>Awards, Prizes, and Honors</h2>
+  <ul class="honors-list">
+    {{ range .Site.Data.honors.prizes }}
+    <li>
+      {{ .title }}{{ with .detail }}, {{ . }}{{ end }}{{ with .year }}, {{ . }}{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

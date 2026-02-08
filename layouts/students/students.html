@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1>{{ .Title }}</h1>
+</section>
+
+<section class="page-content">
+  <h2>Current Students</h2>
+  <ol class="student-list">
+    {{ range .Site.Data.students.current }}
+    <li>{{ .name }}{{ with .expected }} (expected {{ . }}){{ end }}</li>
+    {{ end }}
+  </ol>
+
+  <h2>Former Students</h2>
+  <p class="list-note">First placement; current position</p>
+  <ol class="student-list">
+    {{ range .Site.Data.students.former }}
+    <li>
+      <strong>{{ with .url }}<a href="{{ . }}" target="_blank">{{ end }}{{ .name }}{{ with .url }}</a>{{ end }}</strong>, {{ .year }}{{ with .thesis }}, {{ . }}{{ end }}.
+      ({{ .first_placement }}; {{ .current_position }})
+    </li>
+    {{ end }}
+  </ol>
+
+  <h2>Ph.D. Committee Memberships</h2>
+  <p class="list-note">Home institution of candidate</p>
+  <ol class="student-list committee-list">
+    {{ range .Site.Data.students.committees }}
+    <li>{{ .name }} ({{ .institution }}){{ with .year }}, {{ . }}{{ end }}</li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}

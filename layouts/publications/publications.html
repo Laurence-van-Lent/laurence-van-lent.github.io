@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1>{{ .Title }}</h1>
+</section>
+
+<section class="page-content">
+  <h2>Refereed Journal Articles</h2>
+  <ol class="paper-list paper-list-full">
+    {{ range .Site.Data.publications }}
+    <li class="paper-item">
+      <div class="paper-citation">
+        <span class="paper-authors">{{ .authors }}</span>{{ with .year }}, {{ . }}{{ end }}.
+        {{ .title }}.
+        <em>{{ .journal }}</em>{{ with .volume }}, {{ . }}{{ end }}{{ with .pages }}, {{ . }}{{ end }}.
+        {{ with .status }}<span class="paper-status">({{ . }})</span>{{ end }}
+        {{ with .note }}<span class="paper-note">{{ . }}</span>{{ end }}
+      </div>
+      {{ if .links }}
+      <button class="expand-toggle" aria-label="Show links">+</button>
+      <div class="paper-details">
+        <div class="paper-links">
+          {{ with .links.ssrn }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}{{ end }}
+          {{ with .links.doi }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Journal</a>{{ end }}{{ end }}
+          {{ with .links.data }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Data</a>{{ end }}{{ end }}
+          {{ with .links.slides }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}{{ end }}
+          {{ with .links.nber }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">NBER</a>{{ end }}{{ end }}
+          {{ with .links.cepr }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">CEPR</a>{{ end }}{{ end }}
+          {{ with .links.replication }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Replication Kit</a>{{ end }}{{ end }}
+          {{ with .links.python_script }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Python Script</a>{{ end }}{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}

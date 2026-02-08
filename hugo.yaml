@@ -1,0 +1,13 @@
+baseURL: "https://www.laurencevanlent.org/"
+languageCode: "en-us"
+title: "Laurence van Lent"
+pagination:
+  pagerSize: 100
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "Professor of Accounting and Economics at Frankfurt School of Finance and Management"

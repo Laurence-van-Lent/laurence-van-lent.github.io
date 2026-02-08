@@ -1,0 +1,81 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>{{ .Site.Data.profile.name }}</h1>
+      <p class="hero-title">{{ .Site.Data.profile.title }}</p>
+      <p class="hero-affiliation">{{ .Site.Data.profile.affiliation }}</p>
+      <p class="hero-bio">{{ .Site.Data.profile.bio }} <a href="/about/" class="read-more">Read more &rarr;</a></p>
+      <div class="hero-links">
+        {{ with .Site.Data.profile.links.ssrn }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}
+        {{ with .Site.Data.profile.links.osf }}<a href="{{ . }}" target="_blank">OSF</a>{{ end }}
+        {{ with .Site.Data.profile.links.firmlevelrisk }}<a href="{{ . }}" target="_blank">Firm-level Risk Data</a>{{ end }}
+        {{ with .Site.Data.profile.links.cv }}<a href="{{ . }}" target="_blank">CV (PDF)</a>{{ end }}
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="{{ .Site.Data.profile.photo }}" alt="{{ .Site.Data.profile.name }}">
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <h2>News</h2>
+  <ul class="news-list">
+    {{ range first 4 .Site.Data.news }}
+    <li>
+      <span class="news-date">{{ .date }}</span>
+      <span class="news-text">{{ .text }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+
+<section class="home-section">
+  <h2>Recent Publications</h2>
+  <ol class="paper-list">
+    {{ range first 4 .Site.Data.publications }}
+    <li class="paper-item">
+      <div class="paper-citation">
+        <span class="paper-authors">{{ .authors }}</span>{{ with .year }}, {{ . }}{{ end }}.
+        {{ .title }}.
+        <em>{{ .journal }}</em>{{ with .volume }}, {{ . }}{{ end }}{{ with .pages }}, {{ . }}{{ end }}.
+        {{ with .status }}<span class="paper-status">({{ . }})</span>{{ end }}
+        {{ with .note }}<span class="paper-note">{{ . }}</span>{{ end }}
+      </div>
+      {{ if .links }}
+      <div class="paper-links">
+        {{ with .links.ssrn }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}{{ end }}
+        {{ with .links.doi }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Journal</a>{{ end }}{{ end }}
+        {{ with .links.data }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Data</a>{{ end }}{{ end }}
+        {{ with .links.slides }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}{{ end }}
+      </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ol>
+  <p class="section-more"><a href="/publications/">All publications &rarr;</a></p>
+</section>
+
+<section class="home-section">
+  <h2>Working Papers</h2>
+  <ol class="paper-list">
+    {{ range first 4 (where .Site.Data.working_papers "status" "active") }}
+    <li class="paper-item">
+      <div class="paper-citation">
+        <span class="paper-authors">{{ .authors }}</span>, {{ .year }}.
+        {{ .title }}.
+      </div>
+      {{ if .links }}
+      <div class="paper-links">
+        {{ with .links.ssrn }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}{{ end }}
+        {{ with .links.data }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Data</a>{{ end }}{{ end }}
+        {{ with .links.slides }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}{{ end }}
+      </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ol>
+  <p class="section-more"><a href="/working-papers/">All working papers &rarr;</a></p>
+</section>
+{{ end }}

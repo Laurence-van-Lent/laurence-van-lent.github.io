@@ -1,0 +1,61 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1>{{ .Title }}</h1>
+</section>
+
+<section class="page-content">
+  <h2>Current Position</h2>
+  <p class="position-current">
+    <strong>{{ .Site.Data.experience.current_position.title }}</strong><br>
+    {{ .Site.Data.experience.current_position.institution }}, {{ .Site.Data.experience.current_position.start }}&ndash;present
+  </p>
+
+  <h2>Education</h2>
+  <ul class="experience-list">
+    {{ range .Site.Data.experience.education }}
+    <li><strong>{{ .degree }}</strong>, {{ .institution }}, {{ .year }}</li>
+    {{ end }}
+  </ul>
+
+  <h2>Previous Positions</h2>
+  <ul class="experience-list">
+    {{ range .Site.Data.experience.previous_positions }}
+    <li>
+      <strong>{{ .title }}</strong><br>
+      {{ .institution }}, {{ .years }}
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>Visiting Positions</h2>
+  <ul class="experience-list">
+    {{ range .Site.Data.experience.visiting }}
+    <li>
+      <strong>{{ .title }}</strong>, {{ .institution }}, {{ .year }}
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>Editorial Service</h2>
+  <h3>Editor</h3>
+  <ul class="experience-list">
+    {{ range .Site.Data.experience.editorial.editor }}
+    <li><em>{{ .journal }}</em> — {{ .role }}, {{ .years }}</li>
+    {{ end }}
+  </ul>
+
+  <h3>Associate Editor</h3>
+  <ul class="experience-list">
+    {{ range .Site.Data.experience.editorial.associate_editor }}
+    <li><em>{{ .journal }}</em>, {{ .years }}</li>
+    {{ end }}
+  </ul>
+
+  <h2>Advisory Boards</h2>
+  <ul class="experience-list">
+    {{ range .Site.Data.experience.advisory_boards }}
+    <li>{{ .role }}, {{ .organization }}, {{ .years }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

@@ -1,0 +1,145 @@
+current:
+  - name: "Jie Cui"
+    expected: 2026
+  - name: "Mingyang Liu"
+    expected: 2027
+
+former:
+  - name: "Mengjie Xu"
+    year: 2024
+    thesis: "Essays on strategic interactions under information asymmetry"
+    first_placement: "Duke University"
+    current_position: "Assistant Professor, Duke University"
+    url: "https://www.fuqua.duke.edu/faculty/mengjie-xu"
+  - name: "Menghan Zhu"
+    year: 2021
+    thesis: "Workplace harassment, disclosure, regulations, and biased executives"
+    first_placement: "Vrije Universiteit Amsterdam"
+    current_position: "Assistant Professor, Vrije Universiteit Amsterdam"
+    url: "https://research.vu.nl/en/persons/menghan-zhu"
+  - name: "Ruishen Zhang"
+    year: 2020
+    thesis: "On the frictions in markets and firms: Language, governance, and technology"
+    first_placement: "SUFE"
+    current_position: "Assistant Professor, University of Hong Kong"
+    url: "https://www.hkubs.hku.hk/people/ruishen-zhang/"
+  - name: "Xiang Zheng"
+    year: 2020
+    thesis: "Real effects of regulatory uncertainty"
+    first_placement: "NHH"
+    current_position: "Assistant Professor, Nanyang Technological University"
+    url: "https://dr.ntu.edu.sg/cris/rp/rp02471"
+  - name: "Yusiyu Wang"
+    year: 2019
+    thesis: "Regulation, protest, and spatial economics"
+    first_placement: "Industry"
+    current_position: "Industry"
+  - name: "Xue Jia"
+    year: 2016
+    thesis: "On the role of information disclosures in capital markets"
+    first_placement: "University of Melbourne"
+    current_position: "Senior Lecturer, University of Melbourne"
+    url: "https://fbe.unimelb.edu.au/our-people/staff/accounting/xue-jia"
+  - name: "Wim Janssen"
+    year: 2015
+    thesis: "Essays in financial reporting, tax, and politics"
+    first_placement: "University of Amsterdam"
+    current_position: "Industry"
+  - name: "Chung-Yu Hung"
+    year: 2015
+    thesis: "Heterogeneous agents and decision making within firms"
+    first_placement: "University of Melbourne"
+    current_position: "Associate Professor, University of Melbourne"
+    url: "https://fbe.unimelb.edu.au/our-people/staff/accounting/chung-yu-hung"
+  - name: "Ahmed Tahoun"
+    year: 2011
+    thesis: "Essays in accounting and finance"
+    first_placement: "London School of Economics"
+    current_position: "Professor, London Business School"
+    url: "https://www.london.edu/faculty-and-research/faculty-profiles/t/tahoun-a"
+  - name: "Yuping Jia"
+    year: 2008
+    thesis: "Essays on the role of managerial type in financial reporting"
+    first_placement: "Mannheim University"
+    current_position: "Associate Professor, Frankfurt School of Finance and Management"
+    url: "https://www.frankfurt-school.de/en/research-and-faculty/faculty/faculty-directory/yuping-jia"
+  - name: "Flora Kuang"
+    year: 2007
+    thesis: "Incentive effects of performance-vested stock options"
+    first_placement: "Vrije Universiteit Amsterdam"
+    current_position: "Professor, University of Melbourne"
+    url: "https://fbe.unimelb.edu.au/our-people/staff/accounting/flora-kuang"
+  - name: "Valeri Nikolaev"
+    year: 2007
+    thesis: "Financial reporting, debt contracting and valuation"
+    first_placement: "University of Chicago"
+    current_position: "Professor, University of Chicago"
+    url: "https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev"
+
+committees:
+  - name: "Fan Wu"
+    institution: "Frankfurt School"
+    year: 2024
+  - name: "Qi Zhang"
+    institution: "Frankfurt School"
+    year: 2023
+  - name: "Weijia Zhi"
+    institution: "Frankfurt School"
+    year: 2023
+  - name: "Bryan Spencer"
+    institution: "Frankfurt School"
+    year: 2022
+  - name: "Felix Fritsch"
+    institution: "Frankfurt School"
+    year: 2022
+  - name: "Susanne Preuss"
+    institution: "Vrije Universiteit Amsterdam"
+    year: 2022
+  - name: "Haikun Zhu"
+    institution: "Tilburg University"
+    year: 2018
+  - name: "Elisabeth Klaes"
+    institution: "Frankfurt School"
+    year: 2017
+  - name: "Mariano Scapin"
+    institution: "Carlos III Madrid"
+    year: 2015
+  - name: "Robin Litjens"
+    institution: "Nyenrode University"
+    year: 2014
+  - name: "Huaxiang Yin"
+    institution: "Tilburg University"
+    year: 2014
+  - name: "Yun Lou"
+    institution: "London Business School"
+    year: 2012
+  - name: "Yan Du"
+    institution: "University of Antwerpen"
+    year: 2011
+  - name: "Felix Lampe"
+    institution: "Erasmus University Rotterdam"
+    year: 2011
+  - name: "David Veenman"
+    institution: "University of Amsterdam"
+    year: 2010
+  - name: "Stephan Hollander"
+    institution: "Tilburg University"
+    year: 2007
+  - name: "Yue Wang"
+    institution: "Tilburg University"
+    year: 2006
+  - name: "Rogier Deumes"
+    institution: "University of Maastricht"
+    year: 2005
+  - name: "Eelke Wiersma"
+    institution: "Vrije Universiteit Amsterdam"
+    year: 2003
+  - name: "Michal Matejka"
+    institution: "Tilburg University"
+    year: 2002
+  - name: "Paula van Veen-Dirks"
+    institution: "Tilburg University"
+    year: 2002
+  - name: "Frank Moers"
+    institution: "Maastricht University"
+    year: 2001
