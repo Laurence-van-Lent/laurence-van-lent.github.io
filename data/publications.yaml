@@ -5,7 +5,7 @@
   status: "forthcoming"
   links:
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3853951"
-    data: ""
+    data: "https://osf.io/szgk3/"
     slides: ""
 
 - authors: "Hassan, T., S. Hollander, A. Kalyani, L. van Lent, M. Schwedeler, and A. Tahoun"
@@ -55,6 +55,7 @@
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3792366"
     doi: "https://doi.org/10.1287/mnsc.2023.4686"
     slides: ""
+    data: "https://osf.io/fd6jq/"
 
 - authors: "Bae, J., C.Y. Hung, and L. van Lent"
   year: 2023
@@ -91,7 +92,7 @@
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3642508"
     doi: "https://doi.org/10.1111/jofi.13219"
     slides: ""
-    data: ""
+    data: "https://osf.io/fd6jq/"
 
 - authors: "Abernethy, M.A., J. Bouwens, C. Hofmann, and L. van Lent"
   year: 2023
@@ -133,7 +134,7 @@
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2838644"
     doi: "https://doi.org/10.1093/qje/qjz021"
     nber: "https://www.nber.org/papers/w24029"
-    replication: ""
+    data: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OBNRBP"
 
 - authors: "Tahoun, A. and L. van Lent"
   year: 2019

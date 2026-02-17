@@ -2,16 +2,22 @@
   year: 2026
   title: "Technology shocks and the portability of organizational design"
   status: "active"
+  links:
+    data: "https://osf.io/d79r6/"
 
 - authors: "Liu, M., Z. Sautner, L. van Lent, G. Vilkov, and R. Zhang"
   year: 2026
   title: "Unpacking social exposure"
   status: "active"
+  links:
+    data: "https://osf.io/kawbj/"
 
 - authors: "Cui, J., L. van Lent, and M. Zhu"
   year: 2025
   title: "Quantifying standard-setting deliberations"
   status: "active"
+  links:
+    data: "https://osf.io/e7djr/"
 
 - authors: "Sautner, Z., L. van Lent, G. Vilkov, and R. Zhang"
   year: 2025
@@ -21,7 +27,7 @@
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4596668"
     slides: ""
     pdf: ""
-    data: ""
+    data: "https://osf.io/5amjp/"
 
 - authors: "Hung, C.Y., H. Li, L. van Lent, and Y. Zeng"
   year: 2025
@@ -29,6 +35,7 @@
   status: "active"
   links:
     ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4862556"
+    data: "https://osf.io/5bme2/"
 
 - authors: "Cai, W., L. van Lent, and C. Zeng"
   year: 2024
