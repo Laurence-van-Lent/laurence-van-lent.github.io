@@ -48,11 +48,11 @@ grants:
     coinvestigators: ""
 
 prizes:
-  - title: "Frankfurt School Impactful Research Award 2025"
+  - title: "Frankfurt School Impactful Research Award"
     year: 2025
     detail: "For \"Firm-level Climate Change Exposure\" and \"Pricing Climate Change Exposure\""
 
-  - title: "Top-5 Finalist, ADIA Lab Best Paper Award 2024 on Climate Science"
+  - title: "Top-5 Finalist, ADIA Lab Best Paper Award on Climate Science"
     year: 2024
     detail: "For \"Firm-level Climate Change Exposure\""
 
@@ -60,13 +60,13 @@ prizes:
     year: 2024
     detail: "Forum Pour L'Investissement Responsable, for \"Firm-level Climate Change Exposure\""
 
-  - title: "XiYue Best Paper Award at the 2024 CICF conference"
+  - title: "XiYue Best Paper Award at the CICF conference"
     year: 2024
     detail: "For \"Climate Values and Value Discovery in Earnings Calls,\" with Sautner, Vilkov, Zhang"
 
   - title: "Excellence in Refereeing Award"
-    year: 2020
-    detail: "Journal of Accounting Research, 2020 and 2021"
+    year: "2020-2021"
+    detail: "Journal of Accounting Research"
 
   - title: "Reviewer of the Year Award"
     year: 2018
@@ -81,13 +81,13 @@ prizes:
     detail: "Management Accounting Research"
 
   - title: "Reviewer of the Year Award"
-    year: 2009
-    detail: "BuR Business Research, 2009/10"
+    year: "2009-2010"
+    detail: "BuR Business Research"
 
   - title: "Teaching Excellence Award"
-    year: 2011
-    detail: "Tilburg University, 2011-2015"
+    year: "2011-2015"
+    detail: "Tilburg University"
 
   - title: "Fellow, CentER for Economic Research"
-    year: 1999
-    detail: "Tilburg University, 1999-2017"
+    year: "1999-2017"
+    detail: "Tilburg University"
