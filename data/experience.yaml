@@ -3,6 +3,14 @@ current_position:
   institution: "Frankfurt School of Finance and Management"
   start: 2017
 
+current_positions:
+  - title: "Professor of Accounting and Economics"
+    institution: "Frankfurt School of Finance and Management"
+    years: "2017-present"
+  - title: "Professor of Accounting"
+    institution: "Wirtschaftsuniversität Wien"
+    years: "2026-2029"
+
 education:
   - degree: "Ph.D. in Economics"
     institution: "Tilburg University"

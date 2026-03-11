@@ -4,11 +4,13 @@
 </section>
 
 <section class="page-content">
-  <h2>Current Position</h2>
+  <h2>Current Positions</h2>
+  {{ range .Site.Data.experience.current_positions }}
   <p class="position-current">
-    <strong>{{ .Site.Data.experience.current_position.title }}</strong><br>
-    {{ .Site.Data.experience.current_position.institution }}, {{ .Site.Data.experience.current_position.start }}&ndash;present
+    <strong>{{ .title }}</strong><br>
+    {{ .institution }}, {{ .years }}
   </p>
+  {{ end }}
 
   <h2>Education</h2>
   <ul class="experience-list">
