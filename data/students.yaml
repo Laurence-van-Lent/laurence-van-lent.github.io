@@ -1,6 +1,7 @@
 current:
   - name: "Jie Cui"
     expected: 2026
+    url: "https://jiecui.org"
   - name: "Mingyang Liu"
     expected: 2027
 
