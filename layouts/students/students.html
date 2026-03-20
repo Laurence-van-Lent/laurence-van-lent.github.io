@@ -7,7 +7,7 @@
   <h2>Current Students</h2>
   <ol class="student-list">
     {{ range .Site.Data.students.current }}
-    <li>{{ with .url }}<a href="{{ . }}" target="_blank">{{ end }}{{ .name }}{{ with .url }}</a>{{ end }}{{ with .expected }} (expected {{ . }}){{ end }}</li>
+    <li><strong>{{ with .url }}<a href="{{ . }}" target="_blank">{{ end }}{{ .name }}{{ with .url }}</a>{{ end }}</strong>{{ with .expected }} (expected {{ . }}){{ end }}</li>
     {{ end }}
   </ol>
 
