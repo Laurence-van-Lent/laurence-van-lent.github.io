@@ -1,6 +1,14 @@
+- authors: "Gad, M. and L. van Lent"
+  year: 2026
+  title: "When cheap talk has bite"
+  status: "active"
+  links:
+    ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6626358"
+    data: "https://osf.io/t87hk/"
+
 - authors: "van Lent, L., A. Tahoun, R. Zhang, and M. Zhu"
   year: 2026
-  title: "Technology exposure and the portability of organizational design"
+  title: "Technology exposure and jobs"
   status: "active"
   links:
     data: "https://osf.io/d79r6/"

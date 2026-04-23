@@ -1,11 +1,14 @@
 current:
-  - name: "Jie Cui"
-    expected: 2026
-    url: "https://jiecui.org"
   - name: "Mingyang Liu"
     expected: 2027
 
 former:
+  - name: "Jie Cui"
+    year: 2026
+    thesis: "Essays on accounting standard setting and disclosure regulation"
+    first_placement: "Singapore Management University"
+    current_position: "Assistant Professor, Singapore Management University"
+    url: "https://jiecui.org"
   - name: "Mengjie Xu"
     year: 2024
     thesis: "Essays on strategic interactions under information asymmetry"
