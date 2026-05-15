@@ -17,6 +17,7 @@
         <div class="paper-links">
           {{ with .links.ssrn }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">SSRN</a>{{ end }}{{ end }}
           {{ with .links.pdf }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">PDF</a>{{ end }}{{ end }}
+          {{ with .links.website }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Interactive</a>{{ end }}{{ end }}
           {{ with .links.data }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Data</a>{{ end }}{{ end }}
           {{ with .links.slides }}{{ if ne . "" }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}{{ end }}
         </div>
