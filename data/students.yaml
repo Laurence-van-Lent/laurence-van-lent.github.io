@@ -1,6 +1,10 @@
 current:
   - name: "Mingyang Liu"
     expected: 2027
+  - name: "Siqi Jiang"
+    expected: 2028
+  - name: "Xingxu Chai"
+    expected: 2029
 
 former:
   - name: "Jie Cui"
